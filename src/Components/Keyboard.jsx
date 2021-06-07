@@ -56,7 +56,6 @@ export default function Keyboard() {
 
   return (
     <div className="app-container">
-      <h1>Keyboard</h1>
       <div className="keyboard">{renderNotes()}</div>
     </div>
   );

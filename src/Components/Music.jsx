@@ -93,8 +93,10 @@ export default function Music() {
           </div>
         </div>
         <div className="keyboard">{renderNotes()}</div>
-        <h3>Play the correct Major Triad:</h3>
-        <h2>C Major</h2>
+        <div className="quiz-text">
+          <h3>Play the correct Major Triad:</h3>
+          <h2>C Major</h2>
+        </div>
       </div>
     </div>
   );

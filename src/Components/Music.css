@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 .app-div {
@@ -23,32 +22,40 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0 10px 20px;
+    margin: 0 10px 40px;
 }
 
 .correct-counter {
     border: 1px solid aquamarine;
-    padding: 8px;
+    padding: 10px;
     border-radius: 30px;
     background-color: aquamarine;
     margin-right: 5px;
-    box-shadow: 0 3px 0 aquamarine, 0 3px 3px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 3px rgba(176, 176, 176, 0.5);
+    box-shadow: 0 3px 0 #00bc7a, 0 3px 3px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 3px rgba(255, 255, 255, 0.5);
 }
 
 .incorrect-counter {
     border: 1px solid #ff9999;
-    padding: 8px;
+    padding: 10px;
     border-radius: 30px;
     background-color: #ff9999;
     margin-left: 5px;
-    box-shadow: 0 3px 0 #ff9999, 0 3px 3px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 3px rgba(255,255,255,.5);
+    box-shadow: 0 3px 0 #9d5a5a, 0 3px 3px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 3px rgb(255, 255, 255);
+}
+
+.quiz-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .keyboard {
     display: flex;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 1px 5px 5px grey;
+    box-shadow: 1px 5px 10px #000000;
     margin: 0 0 10px;
 }
 
@@ -60,15 +67,14 @@
     align-items: center;
     color: black;
     background-color: white;
-    /*border: 1px solid lightgray;*/
+    border: 1px solid lightgray;
     height: 220px;
     width: 60px;
-    /*box-shadow: 1px 1px 0 grey;*/
     margin: 0 -5px 0 0;
 }
 
 .black-key {
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -76,11 +82,11 @@
     color: white;
     background-color: black;
     z-index: 10;
-    margin: 0 0 0 -30px;
-    width: 40px;
+    margin: 0 0 0 -10px;
+    width: 45px;
     height: 150px;
     border: 0;
-    /*border-top: 1px solid lightgray;*/
+    border-top: 1px solid lightgray;
 }
 
 .pressed-key {
@@ -88,7 +94,7 @@
 }
 
 .black-key + .white-key {
-    margin-left: -12px;
+    margin-left: -32px;
 }
 
 .white-key, .black-key {

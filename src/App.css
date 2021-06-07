@@ -3,13 +3,13 @@ html, body, #root, #root > div {
 }
 
 body {
-    background-color: beige;
+    background-color: #27272c;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
-    color: deepskyblue;
-    border-bottom: 5px solid yellow;
+    color: #00cdff;
+    border-bottom: 5px solid #fff41f;
 }
 
 h2 {
@@ -37,6 +37,6 @@ a {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #6366ff;
 }
 
