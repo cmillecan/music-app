@@ -3,7 +3,7 @@ html, body, #root, #root > div {
 }
 
 body {
-    background-color: aquamarine;
+    background-color: beige;
 }
 
 h1 {
@@ -11,3 +11,32 @@ h1 {
     color: deepskyblue;
     border-bottom: 5px solid yellow;
 }
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 20px;
+    color: #d70190;
+}
+
+
+h3 {
+    font-family: "Source Code Pro", sans-serif;
+    margin: 10px 0;
+    color: #6366ff;
+}
+
+p {
+    font-family: "Source Code Pro", sans-serif;
+    color: #212121;
+    margin: 0;
+}
+
+a {
+    color: #d70190;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
