@@ -16,7 +16,8 @@ function App() {
           <Route path="/game">
             <Music />
           </Route>
-          <Redirect from="/" to="/game" />
+          <Redirect from="/" to="/game" exact />
+          <Route path="/">404</Route>
         </Switch>
       </div>
     </Router>
