@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Music from "./Components/Music.jsx";
 
 function App() {
@@ -8,12 +13,10 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/">
-            <div>Home!</div>
-          </Route>
           <Route path="/game">
             <Music />
           </Route>
+          <Redirect from="/" to="/game" />
         </Switch>
       </div>
     </Router>
