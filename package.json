@@ -1,5 +1,6 @@
 {
   "name": "music-app",
+  "homepage": "https://cmillecan.github.io/music-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
