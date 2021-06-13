@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .app-div {
@@ -49,6 +50,23 @@
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+}
+
+.quiz-results {
+    border: 3px dashed aquamarine;
+    width: 250px;
+    height: auto;
+    padding: 20px;
+}
+
+.quiz-results p {
+    color: white;
+}
+
+.results-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .keyboard {

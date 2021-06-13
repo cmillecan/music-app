@@ -13,14 +13,43 @@ const noteModels = [
   { name: "B", isWhite: true, value: 11 },
 ];
 
-// TODO: think about this more
-// generateMajorTriad takes a note model and returns a set
 export const generateMajorTriad = (root) => {
   return new Set([
-    root,
-    noteModels[(root.value + 4) % 12],
-    noteModels[(root.value + 7) % 12],
+    root.value,
+    noteModels[(root.value + 4) % 12].value,
+    noteModels[(root.value + 7) % 12].value,
   ]);
 };
+
+export const generateMinorTriad = (root) => {
+  return new Set([
+    root.value,
+    noteModels[(root.value + 3) % 12].value,
+    noteModels[(root.value + 7) % 12].value,
+  ]);
+};
+
+export const generateDiminishedTriad = (root) => {
+  return new Set([
+    root.value,
+    noteModels[(root.value + 3) % 12].value,
+    noteModels[(root.value + 6) % 12].value,
+  ]);
+};
+
+export const generateAugmentedTriad = (root) => {
+  return new Set([
+    root.value,
+    noteModels[(root.value + 4) % 12].value,
+    noteModels[(root.value + 8) % 12].value,
+  ]);
+};
+
+export const qualities = [
+  { label: "Major", generateTriad: generateMajorTriad },
+  { label: "Minor", generateTriad: generateMinorTriad },
+  { label: "Diminished", generateTriad: generateDiminishedTriad },
+  { label: "Augmented", generateTriad: generateAugmentedTriad },
+];
 
 export default noteModels;
