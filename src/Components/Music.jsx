@@ -22,6 +22,7 @@ export default function Music() {
   const [correctCount, setCorrectCount] = useState(0);
   const [incorrectCount, setIncorrectCount] = useState(0);
 
+  // needs more practice section
   const updateIncorrectCountMap = () => {
     setIncorrectCountMap((currentIncorrectCountMap) => {
       const triadLabel = `${correctRoot.name} ${correctQuality.label}`;
@@ -34,6 +35,7 @@ export default function Music() {
   };
 
   useEffect(() => {
+    // when the user presses 3 keys
     if (notesPlayed.length === 3) {
       setTimeout(() => {
         setNotesPlayed([]);
@@ -75,16 +77,7 @@ export default function Music() {
           ? "pressed-key"
           : "";
 
-        // 3rd option
-        // let combinedClasses = n.isWhite ? "white-key" : "black-key";
-        // if (maybeSecondClass)
-        //   combinedClasses = `${combinedClasses} ${maybeSecondClass}`;
-
-        // 4th option
         const combinedClasses = [firstClass, maybeSecondClass].join(" ");
-
-        // const combinedClasses = firstClass + " " + maybeSecondClass;
-        // const combinedClasses = `${firstClass} ${maybeSecondClass}`;
 
         noteButtons.push(
           <button

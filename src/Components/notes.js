@@ -1,4 +1,4 @@
-const noteModels = [
+export const noteModels = [
   { name: "C", isWhite: true, value: 0 },
   { name: "C#", isWhite: false, value: 1 },
   { name: "D", isWhite: true, value: 2 },

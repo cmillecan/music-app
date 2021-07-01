@@ -18,6 +18,7 @@
     margin: 0 0 10px;
 }
 
+/* counter buttons */
 .counter-div {
     display: flex;
     flex-direction: row;
@@ -44,6 +45,7 @@
     box-shadow: 0 3px 0 #9d5a5a, 0 3px 3px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 3px rgb(255, 255, 255);
 }
 
+/* quiz */
 .quiz-text {
     display: flex;
     flex-direction: column;
@@ -69,6 +71,7 @@
     justify-content: space-between;
 }
 
+/* keyboard */
 .keyboard {
     display: flex;
     justify-content: center;
