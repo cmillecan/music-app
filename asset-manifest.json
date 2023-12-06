@@ -1,13 +1,13 @@
 {
-  "main.css": "/music-app/static/css/main.7b24d9d1.chunk.css",
-  "main.js": "/music-app/static/js/main.f871cff6.chunk.js",
-  "main.js.map": "/music-app/static/js/main.f871cff6.chunk.js.map",
+  "main.css": "/music-app/static/css/main.ac5ec467.chunk.css",
+  "main.js": "/music-app/static/js/main.d6450209.chunk.js",
+  "main.js.map": "/music-app/static/js/main.d6450209.chunk.js.map",
   "runtime~main.js": "/music-app/static/js/runtime~main.4cccf074.js",
   "runtime~main.js.map": "/music-app/static/js/runtime~main.4cccf074.js.map",
-  "static/js/2.bf64e963.chunk.js": "/music-app/static/js/2.bf64e963.chunk.js",
-  "static/js/2.bf64e963.chunk.js.map": "/music-app/static/js/2.bf64e963.chunk.js.map",
+  "static/js/2.19587f6b.chunk.js": "/music-app/static/js/2.19587f6b.chunk.js",
+  "static/js/2.19587f6b.chunk.js.map": "/music-app/static/js/2.19587f6b.chunk.js.map",
   "index.html": "/music-app/index.html",
-  "precache-manifest.8aa7ff3d383d9500688c37992f4b2367.js": "/music-app/precache-manifest.8aa7ff3d383d9500688c37992f4b2367.js",
+  "precache-manifest.e0de8cee8a42fa94386944a42565b16c.js": "/music-app/precache-manifest.e0de8cee8a42fa94386944a42565b16c.js",
   "service-worker.js": "/music-app/service-worker.js",
-  "static/css/main.7b24d9d1.chunk.css.map": "/music-app/static/css/main.7b24d9d1.chunk.css.map"
+  "static/css/main.ac5ec467.chunk.css.map": "/music-app/static/css/main.ac5ec467.chunk.css.map"
 }
