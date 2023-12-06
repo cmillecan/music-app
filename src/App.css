@@ -7,43 +7,50 @@ body {
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    color: #00cdff;
-    border-bottom: 5px solid #fff41f;
+    font-family: 'Poppins', helvetica, arial, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Andale Mono";
     margin: 0;
+    font-size: 20px;
     color: #d70190;
+    font-weight: lighter;
 }
 
 
 h3 {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: 'Poppins', helvetica, arial, sans-serif;
     margin: 10px 0;
     color: #6366ff;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 h4 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', helvetica, arial, sans-serif;
     font-weight: lighter;
+    text-transform: uppercase;
     color: #fff41f;
     font-size: 15px;
     margin: 0 0 10px;
 }
 
 h5 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', helvetica, arial, sans-serif;
     font-weight: lighter;
-    color: #ff9999;
+    color: #00cdff;
     font-size: 15px;
     margin: 0 0 8px;
 }
 
 p {
     font-family: "Source Code Pro", sans-serif;
-    color: #212121;
+    color: #000000;
     margin: 0 0 5px;
 }
 

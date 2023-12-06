@@ -102,25 +102,18 @@ export default function Music() {
     <div className="app-container">
       <div className="app-div">
         <div className="app-title">
-          <h1>Musical Keyboard Game</h1>
+          <h1>Music Theory Game</h1>
         </div>
-        <div className="counter-div">
-          <div className="correct-counter">
-            <p>Correct: {correctCount}</p>
-          </div>
-          <div className="incorrect-counter">
-            <p>Incorrect: {incorrectCount}</p>
+        <div className="quiz-text">
+          <h3>Play the triad:</h3>
+          <div className='triad-name'>
+            <h2>{correctRoot.name} {correctQuality.label}</h2>
           </div>
         </div>
         <div className="keyboard">{renderNotes()}</div>
-        <div className="quiz-text">
-          <h3>Play the correct triad:</h3>
-          <h2>
-            {correctRoot.name} {correctQuality.label}
-          </h2>
-        </div>
-        <h4>Needs more practice:</h4>
+        <div className="bottom-div">
         <div className="quiz-results">
+          <h4>Needs more practice:</h4>
           <div className="results-row">
             <div>
               <h5>Chord</h5>
@@ -142,6 +135,15 @@ export default function Music() {
             </div>
           ))}
         </div>
+        <div className="counter-div">
+          <div className="correct-counter">
+            <p>Correct: {correctCount}</p>
+          </div>
+          <div className="incorrect-counter">
+            <p>Incorrect: {incorrectCount}</p>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );
