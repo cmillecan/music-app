@@ -73,6 +73,8 @@
 
 .quiz-results p {
     color: white;
+    letter-spacing: 1px;
+    font-family: "Source Code Pro", sans-serif;
 }
 
 .results-row {
@@ -120,7 +122,7 @@
 }
 
 .pressed-key {
-    background-color: #8fdfff;
+    background-color: #e0dede;
 }
 
 .black-key + .white-key {
@@ -134,5 +136,5 @@
 }
 
 .white-key:hover, .black-key:hover {
-    background-color: #8fdfff;
+    background-color: #e0dede;
 }
