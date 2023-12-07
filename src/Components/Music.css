@@ -137,4 +137,5 @@
 
 .white-key:hover, .black-key:hover {
     background-color: #e0dede;
+    cursor: pointer;
 }
